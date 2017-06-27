@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+div.header{
+padding:5px;
+background:#ccc;
+height:35px;
+}
+
+div.header #logowrap{
+float: left;
+width: 15%;
+height: 25px;
+background: #eee;
+margin: 5px;
+
+}
+
+div.header #searchwrap{
+margin: 5px;
+float: left;
+width: 75%;
+}
+
+
+
+div.header #searchwrap input#search{
+height: 20px;
+border-radius: 6px;
+border-color: #eee;
+width: 70%;
+}
+
+
+div.header #searchwrap button
+{
+width: 20%;
+height: 25px;
+margin:2px;
+border-radius:5px;
+}
